@@ -99,32 +99,14 @@ print  """\033[1;91m=======================================
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Dammy"
-CorrectPassword = "Prince"
+"""
 
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m🔐 \x1b[1;93m++++USERNAME Dammy Prince++++ \x1b[1;97m»» \x1b[1;93m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m🔐 \x1b[1;93m++++PASSWORD Dammy Prince++++ \x1b[1;97m»» \x1b[1;93m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.facebook.com/itzemily.precious')
-    else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.facebook.com/itzemily.precious')
 
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
+
+def main():
+
+    os.system("clear")
+
     print logo
 
     print("")
