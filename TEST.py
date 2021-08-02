@@ -1,42 +1,74 @@
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
-from multiprocessing.pool import ThreadPool
+#coding=utf-8
+
+#!/usr/bin/python2
+
+#decompile by star-vampire
+
+try:
+
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+
+    from multiprocessing.pool import ThreadPool
+
+except ImportError:
+
+    os.system("pip2 install requests")
+
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
+
+
+
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+
+    os.system("apt update && apt install nodejs -y")
+
 from requests.exceptions import ConnectionError
-from mechanize import Browser
+
+os.system("git pull")
+
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("cd ..... && pip install progress")
+
+    os.system("cd ..... && npm install")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+    time.sleep(10)
+
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("#")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+bd=random.randint(2e7, 3e7)
+
+sim=random.randint(2e4, 4e4)
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (Linux; Android 10; Infinix X688C Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+
 reload(sys)
-sys.setdefaultencoding('utf8')
- 
 
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 8.1.0; Chrome/79.0.3945.116) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36')]
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+sys.setdefaultencoding("utf-8")
 
+c = "\033[1;92m"
 
-def keluar():
-	print "\033[1;96m[!] \x1b[1;91mExit"
-	os.sys.exit()
-def acak(b):
-    w = 'ahtdzjc'
-    d = ''
-    for i in x:
-        d += '!'+w[random.randint(0,len(w)-1)]+i
-    return cetak(d)
-def cetak(b):
-    w = 'ahtdzjc'
-    for i in w:
-        j = w.index(i)
-        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-    x += '\033[0m'
-    x = x.replace('!0','\033[0m')
-    sys.stdout.write(x+'\n')
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(00000.1)
-##### LOGO #####
-logo = """
+c2 = "\033[0;97m"
+
+c3 = "\033[1;91m"
+
+logo = """ 
 
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mDammy Prince
