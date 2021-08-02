@@ -98,22 +98,28 @@ print  """\033[1;91m=======================================
 \033[1;96Follow up on Facebook \033[1;93m: \033[1;92mhttps://www.facebook.com/lizzy.moses.7739
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
+
 CorrectUsername = "CHARLEF"
 CorrectPassword = "12"
+
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;94m▒▒▒▒📋 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;94m▒▒▒▒🔑\x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username
+            print "Logged in successfully as " + username #Dev:Freaked Dude
+	    time.sleep(2)
             loop = 'false'
         else:
-            print "Wrong Password"
+            print "\033[1;91mWrong Password"
             os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
     else:
-        print "Wrong Username"
-    os.system("clear")
+        print "\033[1;94mWrong Username"
+        os.system('xdg-open https://www.facebook.com/lizzy.moses.7739')
+
+def login():
+	os.system('clear')
 
     print logo
 
