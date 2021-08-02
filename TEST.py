@@ -99,24 +99,25 @@ print  """\033[1;91m=======================================
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "MEMO"
-CorrectPassword = "KING"
+CorrectUsername = "Dammy"
+CorrectPassword = "Prince"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;97mEnter Username \x1b[1;97m: \x1b[1;97m")
+    username = raw_input("\033[1;97m🔐 \x1b[1;93m++++USERNAME Dammy Prince++++ \x1b[1;97m»» \x1b[1;93m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;97mEnter Passcode \x1b[1;97m: \x1b[1;97m")
+    	password = raw_input("\033[1;97m🔐 \x1b[1;93m++++PASSWORD Dammy Prince++++ \x1b[1;97m»» \x1b[1;93m")
         if (password == CorrectPassword):
-            print "\033[1;97mAccess Granted "#Dev:Gupta Shakel
-	    time.sleep(1)
+            print "Logged in successfully as " + username #Dev:love_hacker
+	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;97mACCESS DENIED"
-            os.system('xdg-open https://m.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ?sub_confirmation=1')
+            print "\033[1;91mWrong Password"
+            os.system('xdg-open https://www.facebook.com/itzemily.precious')
     else:
-        print "\033[1;97mACCESS DENIED"
-        os.system('xdg-open https://m.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ?sub_confirmation=1')
+        print "\033[1;94mWrong Username"
+        os.system('xdg-open https://www.facebook.com/itzemily.precious')
+
 def login():
 	os.system('clear')
 	try:
