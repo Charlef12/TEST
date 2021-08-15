@@ -116,11 +116,11 @@ logo = """
 
 
 
-\033[1;96m🎭\033[1;97m Tool Author : Dammy Prince\033[1;97m[ \033[0;92mDammy \033[1;97m]
+\033[1;96m🗽\033[1;97m Tool Author : Dammy Prince\033[1;97m[ \033[0;92mDammy \033[1;97m]
 
-\033[1;96m🎭\033[1;97m Facebook    : Igwilo Emilia Afoma🦹
+\033[1;96m🗽\033[1;97m Facebook    : Igwilo Emilia Afoma
 
-\033[1;96m🎭\033[1;97m Whatsapp    : +234 814 366 7579🦹
+\033[1;96m🗽\033[1;97m Whatsapp    : +234 814 366 7579
                            
             📌USE AIRPLANE MODE EVERY 10 MINT📌
 \033[1;97m-----------------------------------------------
@@ -159,15 +159,15 @@ def main():
 
     print("")
 
-    print("\033[1;97m[1]\033[1;91m 🤶> \033[1;97mClone Public ID With b-api")
+    print("\033[1;97m[1]\033[1;91m 👉> \033[1;97mClone Public ID With b-api")
 
     print("")
 
-    print("\033[1;97m[2]\033[1;91m 🤶> \033[1;97mMore Termux Command")
+    print("\033[1;97m[2]\033[1;91m 👉> \033[1;97mMore Termux Command")
 
     print("")
 
-    print("\033[1;97m[0]\033[1;91m 🤶> \033[1;97mlogout tool")
+    print("\033[1;97m[0]\033[1;91m 👉> \033[1;97mlogout tool")
 
     print("")
 
