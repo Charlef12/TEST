@@ -91,8 +91,8 @@ logo = """
 
 """
 
-CorrectUsername 🗝️= "DAMMY"
-CorrectPassword 🗝️= "PRINCE"
+CorrectUsername = "DAMMY"
+CorrectPassword = "PRINCE"
 
 loop = 'true'
 while (loop == 'true'):
